@@ -1,9 +1,12 @@
 <template name="newPrintJob">
   {{> loginButtons}}
-	
-	<!-- {{#if currentUser}} -->
-	asdf
-	<!-- {{else}} -->
-	qwer
-	<!-- {{/if}} -->
+  <br />
+	{{#if currentUser}}
+	<form id="newJob">
+		<input id="fileInput" type="file"/>
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+	</form>
+	{{/if}}
 </template>
+
