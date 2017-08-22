@@ -1,3 +1,3 @@
 # meteor-azure-raspi
 
-URL : 
+URL : http://meteor-azure-raspi.southeastasia.cloudapp.azure.com
